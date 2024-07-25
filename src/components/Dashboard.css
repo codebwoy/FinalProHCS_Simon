@@ -1,0 +1,29 @@
+.dashboard-container {
+  display: flex;
+}
+.dashboard-left {
+  flex: 2;
+  padding: 10px;
+}
+.dashboard-right {
+  flex: 1;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blogpost-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+.blogpost-item {
+  width: 100%;
+}
+.map-size {
+  width: 50%;
+  height: 50%;
+}
+.dashboard {
+  display: flex;
+}

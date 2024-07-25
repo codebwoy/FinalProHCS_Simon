@@ -1,0 +1,17 @@
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-icon {
+  margin-right: 8px; 
+}
+
+.navbar-button {
+  color: inherit;
+}
+
+.navbar-login-text {
+  margin-left: 8px; 
+}

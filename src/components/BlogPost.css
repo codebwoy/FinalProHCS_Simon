@@ -1,0 +1,36 @@
+.blog-detail-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-detail {
+  flex: 1;
+  padding: 20px;
+}
+
+.map-container {
+  flex: 1;
+  padding: 20px;
+  min-width: 400px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.author-info img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.map {
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 768px) {
+  .blog-detail-container {
+    flex-direction: column;
+  }
+}

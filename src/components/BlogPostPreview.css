@@ -1,0 +1,66 @@
+.blog-post-preview {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  /grid-template-rows: repeat(3, auto);
+  gap: 5px;
+  width: 100%;
+  max-width: 1200px; /* Optional: set a max width to prevent overly wide layouts */
+  margin: 0 auto; /* Center the grid within its container */
+}
+.blog-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: 60%; /* Image takes 60% of the blog item’s height */
+  object-fit: cover;
+}
+
+.blog-info {
+  padding: 1px; /* Added padding for spacing inside info section */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40%; /* Info section takes remaining 40% height */
+}
+
+.blog-info h5 {
+  font-size: 0.5rem; /* Title font size */
+  margin: 0;
+  margin-bottom: 0.6rem; /* Spacing between title and visiting date */
+  line-height: 0.5; /* Line height for spacing */
+}
+
+.blog-info h6 {
+  font-size: 0.5rem; /* Visiting date font size */
+  margin: 0;
+  margin-bottom: 0rem; /* Spacing between visiting date and author's info */
+  line-height: 0.5; /* Line height for spacing */
+}
+
+.blog-info p {
+  font-size: 0.8rem; /* Author’s name font size */
+  margin: 0;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px; /* Margin to separate author info from the rest */
+}
+
+.author-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 40%;
+  margin-right: 6px;
+}
